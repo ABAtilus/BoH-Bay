@@ -27,8 +27,6 @@ var/datum/robolimb/basic_robolimb
 	var/list/allowed_bodytypes = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_OLDUNATHI)
 
 /datum/robolimb/bishop
-
-/datum/robolimb/bishop
 	company = "Bishop"
 	desc = "This limb has a white polymer casing with blue holo-displays."
 	icon = 'icons/mob/human_races/cyberlimbs/bishop/bishop_main.dmi'
