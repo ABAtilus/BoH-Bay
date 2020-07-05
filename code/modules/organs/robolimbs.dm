@@ -25,7 +25,10 @@ var/datum/robolimb/basic_robolimb
 	var/list/restricted_to = list()
 	var/list/applies_to_part = list() //TODO.
 	var/list/allowed_bodytypes = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_SKRELL,SPECIES_UNATHI,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_OLDUNATHI)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4fd9f52c2f291c7b9086f7cb66d03b258f70fa13
 
 /datum/robolimb/bishop
 	company = "Bishop"
