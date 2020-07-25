@@ -1329,6 +1329,8 @@
 /area/crew_quarters/heads/office/xo)
 "cp" = (
 /obj/structure/table/woodentable/walnut,
+/obj/item/toy/torchmodel,
+/obj/random_multi/single_item/runtime,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "cq" = (
@@ -1927,7 +1929,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hallway/starboard)
 "dd" = (
-/obj/item/weapon/pen,
 /obj/item/weapon/stamp/xo,
 /obj/structure/table/woodentable_reinforced/walnut,
 /turf/simulated/floor/wood/walnut,
@@ -2747,9 +2748,6 @@
 	pixel_y = 7
 	},
 /obj/item/weapon/pen,
-/obj/item/toy/figure/secofficer{
-	desc = "A 'Space Life' brand Security Officer action figure. This one seems rather old. A small heart is sewn into the armor vest."
-	},
 /obj/item/sticky_pad/random,
 /obj/effect/floor_decal/corner/red{
 	dir = 6
@@ -9188,7 +9186,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "oR" = (
-/obj/structure/flora/pottedplant/overgrown,
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 8;
@@ -9209,6 +9206,7 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue,
+/obj/structure/flora/pottedplant/orientaltree,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "oS" = (
@@ -10177,8 +10175,6 @@
 "qv" = (
 /obj/structure/table/glass,
 /obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
-/obj/item/weapon/pen/blue,
 /obj/item/sticky_pad/random,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
@@ -10186,7 +10182,7 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
 	},
-/obj/item/toy/figure/cmo,
+/obj/item/weapon/pen/multi,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "qw" = (
@@ -10881,9 +10877,8 @@
 /obj/item/device/radio/intercom{
 	pixel_y = 23
 	},
-/obj/item/toy/torchmodel,
 /obj/structure/table/woodentable_reinforced/walnut,
-/obj/random_multi/single_item/runtime,
+/obj/item/device/flashlight/lamp/green,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/xo)
 "rD" = (
@@ -15205,7 +15200,6 @@
 	dir = 10;
 	tag = "icon-corner_white (SOUTHWEST)"
 	},
-/obj/item/toy/figure/scientist,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/rd)
 "BW" = (
@@ -16432,7 +16426,6 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 5
 	},
-/obj/item/toy/figure/ce,
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/ce)
 "Ib" = (
@@ -18142,7 +18135,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "QX" = (
-/obj/item/device/flashlight/lamp/green,
 /obj/machinery/keycard_auth/torch{
 	pixel_x = 0;
 	pixel_y = 24
@@ -18165,6 +18157,7 @@
 	pixel_x = -3;
 	pixel_y = 7
 	},
+/obj/item/weapon/pen,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/xo)
 "Ra" = (

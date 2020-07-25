@@ -144,10 +144,6 @@
 /area/crew_quarters/safe_room/thirddeck
 	name = "\improper Third Deck Safe Room"
 
-/area/crew_quarters/laundry
-	name = "\improper Laundry Room"
-	icon_state = "Sleep"
-
 /area/crew_quarters/garden
 	name = "\improper Ship Garden"
 
@@ -1395,6 +1391,10 @@
 	name = "\improper Holodeck - Plaza"
 	sound_env = SMALL_ENCLOSED
 
+/area/holodeck/source_lasertag
+	name = "\improper Holodeck - Laser Tag"
+	sound_env = ARENA
+
 // Engineering
 
 /area/engineering/atmos/storage
@@ -1481,6 +1481,11 @@
 	name = "\improper Operating Theatre 2"
 	icon_state = "surgery"
 	req_access = list(list(access_surgery, access_robotics_engineering))
+
+/area/medical/garaje
+	name = "\improper Garaje"
+	icon_state = "medbay4"
+	req_access = list(access_medical)
 
 // Research
 /area/assembly
@@ -1754,8 +1759,12 @@
 	name = "\improper Cabin Two"
 	icon_state = "Sleep"
 
-/area/crew_quarters_boh/cabin_main/c3
-	name = "\improper Cabin Three"
+/area/crew_quarters_boh/cabin_main/cambiador
+	name = "\improper Cambiador"
+	icon_state = "Sleep"
+
+/area/crew_quarters_boh/cabin_main/laundry
+	name = "\improper Laundry Room"
 	icon_state = "Sleep"
 
 /area/crew_quarters_boh/cabin_main/janitorial
